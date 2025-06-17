@@ -32,15 +32,17 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city" id="weather-app-city">City Name</h1>
+            <h1 class="weather-app-city" id="weather-app-city"></h1>
             <p class="weather-app-details">
-              Date, time, condition <br />
-              Humidy <strong>%</strong>, Wind speed <strong>mph</strong>
+              <span id="current-time"></span>,
+              <span id="current-weather-condition"></span> <br />
+              <strong id="humidity"></strong>,
+              <strong id="wind-speed">mph</strong>
             </p>
           </div>
           <div class="weather-app-temperature-container">
             <div class="weather-app-temperature-icon">⛅️</div>
-            <div class="weather-app-temperature" id="temperature">15</div>
+            <div class="weather-app-temperature" id="temperature"></div>
             <div class="weather-app-temperature-unit">°C</div>
           </div>
         </div>
